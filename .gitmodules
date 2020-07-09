@@ -1,0 +1,3 @@
+[submodule "next-reloaded"]
+	path = next-reloaded
+	url = ./themes/next-reloaded
