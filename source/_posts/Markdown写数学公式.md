@@ -3,8 +3,10 @@ title: Markdown书写数学公式
 date: 2019-01-16 22:47:36
 categories:
 - Markdown
+- Math
 tags:
 - Markdown
+- Math
 mathjax: true
 ---
 

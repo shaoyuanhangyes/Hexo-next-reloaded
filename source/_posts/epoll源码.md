@@ -11,7 +11,7 @@ tags:
 ---
 ## epoll源码(注释版)
 <!-- more --> 
-```bash
+```C++
 
 /*
  *  fs/eventpoll.c (Efficient event retrieval implementation)
@@ -945,7 +945,7 @@ size表示所要监视文件描述符的最大值 不过后来的linux版本中�
 
 ##### int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)
 将被监听的描述符添加到红黑树或从红黑树中删除或者对监听事件进行修改
-```bash
+```C++
 typedef union epoll_data{
     void *ptr; //指向用户自定义数据
     int fd; //注册的文件描述符
