@@ -29,3 +29,23 @@ theme/next下_config.yml中` mathjax: enable: true`要开启
 
 $$ \sqrt{\cfrac{x_{1}^2+\cdot\cdot\cdot+x_{n}^2}{n}} \geq \cfrac{x_1 + \cdot\cdot\cdot + x_n}{n} \geq \sqrt[n]{x_1 \cdot\cdot\cdot x_n} \geq \cfrac{n}{\cfrac{1}{x_1}+\cdot\cdot\cdot+\cfrac{1}{x_n}}$$
 当且仅当$x_1=x_2= \cdot\cdot\cdot =x_n$时  等号成立
+
+### 三角不等式
+
+#### 一般形式
+
+$n$维向量$x=(x_1,\cdot\cdot\cdot,x_n) y=(y_1,\cdot\cdot\cdot,y_n)$ 因为两边之和一定大于第三边 所以成立
+$||x|-|y|| \leq |x \pm y| \leq |x|+|y|$ 当且仅当 $x||y$ (xy平行)的时候才成立
+即: $$\sqrt{(x_1 \pm y_1)^2+\cdot\cdot\cdot+(x_n \pm y_n)^2} \leq \sqrt{x_{1}^2+\cdot\cdot\cdot+x_{n}^2}+\sqrt{y_{1}^2+\cdot\cdot\cdot+y_{n}^2}$$
+$$\sqrt{(x_1 \pm y_1)^2+\cdot\cdot\cdot+(x_n \pm y_n)^2} \geq |\sqrt{x_{1}^2+\cdot\cdot\cdot+x_{n}^2}-\sqrt{y_{1}^2+\cdot\cdot\cdot+y_{n}^2}|$$
+
+#### 1维特别形式
+当$n$维向量的维数n=1时 有
+$$||a|-|b|| \leq |a+b| \leq |a|+|b|$$ 左处等号当且仅当$ab \leq 0$时成立 右处等号当且仅当$ab \geq 0$时成立
+
+$$||a|-|b|| \leq |a-b| \leq |a|+|b|$$ 左处等号当且仅当$ab \geq 0$时成立 右处等号当且仅当$ab \leq 0$时成立
+
+### 基本初等函数不等式
+
+$\cfrac{x}{1+x} \leq \ln(1+x) \leq x  \forall x>-1$
+
