@@ -49,3 +49,41 @@ $$||a|-|b|| \leq |a-b| \leq |a|+|b|$$ 左处等号当且仅当$ab \geq 0$时成�
 
 $\cfrac{x}{1+x} \leq \ln(1+x) \leq x  \forall x>-1$
 
+$\sin{x} \leq x \leq \tan{x}$
+
+$e^x \geq x+1$
+
+### 柯西不等式 
+
+#### 离散形式
+
+$$
+(\sum_{i=1}^{n}a_ib_i)^2 \leq (\sum_{i=1}^{n}a_i^{2})(\sum_{i=1}^{n}b_i^{2})
+$$
+当且仅当$a_i=kb_i$时等号成立
+
+#### 连续形式
+
+$$
+(\int_{a}^{b} f(x)g(x)\mathrm{d}x)^2 \leq \int_{a}^{b}f^2(x)\mathrm{d}x\int_{a}^{b}g^2(x)\mathrm{d}x
+$$
+
+当且仅当存在常数k使得$f(x)=kg(x)$成立
+
+#### 多元形式
+
+$$
+(\iint_{D} f(x,y)g(x,y)\mathrm{d}\sigma)^2 \leq (\iint_{D} f^2(x,y)\mathrm{d}\sigma)(\iint_{D} g^2(x,y)\mathrm{d}\sigma)
+$$
+
+### 切比雪夫不等式
+
+$$
+对于x_1 \geq x_2 \geq \cdot\cdot\cdot \geq x_n 和 y_1 \geq y_2 \geq \cdot\cdot\cdot \geq y_n 存在不等式:
+$$
+
+顺序和 $\geq$ 乱序和 $\geq$ 逆序和
+
+$$
+x_1y_1+x_2y_2+\cdot\cdot\cdot+x_ny_n \geq \cfrac{1}{n}(x_1+x_2+\cdot\cdot\cdot+x_n)(y_1+y_2+\cdot\cdot\cdot+y_n) \geq x1y_n+x_2y_{n-1}+\cdot\cdot\cdot+x_ny_1
+$$
